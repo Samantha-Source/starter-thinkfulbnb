@@ -46,20 +46,22 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 
 ![Navigation mobile](./images/navigation-mobile.png)
 
-- **Single-page navigation**: Modify the navigation links so that clicking on each link will take the user to the corresponding sections on the page, as follows:
+<del> **Single-page navigation**: Modify the navigation links so that clicking on each link will take the user to the corresponding sections on the page, as follows:
 
+<s>
 | Link clicked | Take the user to the section with `id` of |
 | ------------ | ----------------------------------------- |
 | `Stay`       | `id="stay"`                               |
 | `About`      | `id="about"`                              |
 | `Ideas`      | `id="ideas"`                              |
-| `Host`       | `id="host"`                               |
+| `Host`       | `id="host"`                               | 
+</s>
 
 #### HTML form
 
-- In the "Find your perfect vacation rental" section, create a form that contains the following input fields with the specified types:
+<del>- In the "Find your perfect vacation rental" section, create a form that contains the following input fields with the specified types:
 
-  - `Location`: `text` input type, with a placeholder value of "Search destination"
+ <s> - `Location`: `text` input type, with a placeholder value of "Search destination"
   - `Arrive`: `date` input type
   - `Depart`: `date` input type
   - `Type`: a dropdown list with the following options:
@@ -78,7 +80,7 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 Your final form design should look as follows:
 
 ![Search form mobile](./images/search-form-mobile.png)
-
+</s>
 #### Vertical content alignment
 
 - The content in the remainder of the sections (i.e., "About", "Ideas", "Want to become a Thinkfulbnb Host?"), including any text and images, should stack on top of each other. Refer to the mobile design shared above.
