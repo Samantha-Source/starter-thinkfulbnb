@@ -40,26 +40,20 @@ main img {
 
 /* ---  Groups & Items --- */
 
-.group {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .item {
   flex: 1;
   margin: 10px;
 }
 
-.item-double {
-  flex: 2;
-}
 
 /* -------  Navigation ------- */
 
 header {
+  width: 100%;
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
-  text-align: center;
 }
 
 .logo {
@@ -140,57 +134,55 @@ footer p {
 
 @media all and (min-width:480px) {
 
-  main {
-    width:100%
-  }
-
   h2 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 35px;
   } 
-
 
   main img {
     flex: 1;
-    width: 33%;
-    align-items: stretch;
+    width: 25%;
   }
 
   section {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 100%;
   }
 
-
-  .about-class {
-    display: flex;
+  .column {
     flex-direction: column;
-    background-color: #00a699;
-    color: #fff;
   }
 
-  .align-stuff {
-    display: flex;
+
+  /* -----Host----- */
+  .host-class {
+    flex-shrink: 4;
+  }
+
+  .host-image {
+    flex-basis: 100%;
+    width: 0;
+    flex-shrink: 3
+  }
+
+  /* -----Ideas-----*/
+
+  .half-page-pic {
     flex-direction: row;
-    align-items: stretch;
-    width:fit-content;
+    width: 100%;
   }
 
-  .item{
-    flex: 1;
-    margin: 10px;
+  .image-class {
+    flex-direction: column;
+    flex-basis: 50%
   }
+  
 
-  .item-double {
-    flex: 2;
-  }
 
-  /* Header */
+  /* -----Header----- */
   header {
     display:flex;
     flex-direction: row;
@@ -202,11 +194,7 @@ footer p {
     font-size: 50px
   }
 
-  /* Stay section & form */
-  .stay-class{
-    display: flex;
-    flex-direction: column;
-  }
+  /* -----Stay section & form----- */
 
   .input {
     flex-direction: column;
