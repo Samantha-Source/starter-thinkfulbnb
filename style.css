@@ -40,41 +40,20 @@ main img {
 
 /* ---  Groups & Items --- */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 93d77b1 (finished layout)
-.group {
-  display: flex;
-  flex-direction: column;
-}
 
-<<<<<<< HEAD
->>>>>>> parent of 93d77b1 (finished layout)
-=======
->>>>>>> parent of 93d77b1 (finished layout)
+
 .item {
   flex: 1;
   margin: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 93d77b1 (finished layout)
-.item-double {
-  flex: 2;
-}
 
->>>>>>> parent of 93d77b1 (finished layout)
 /* -------  Navigation ------- */
 
 header {
+  width: 100%;
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
-  text-align: center;
 }
 
 .logo {
@@ -128,13 +107,6 @@ form input {
   justify-content: space-between;
 }
 
-#stay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 form button {
   background-color: #ff385c;
   border: none;
@@ -143,6 +115,7 @@ form button {
   padding: 15px;
   width: 100%;
 }
+
 
 
 /* -------  Footer ------- */
@@ -161,42 +134,29 @@ footer p {
 
 @media all and (min-width:480px) {
 
-  main {
-    width:100%
-  }
-
   h2 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 35px;
   } 
-
 
   main img {
     flex: 1;
-    width: 33%;
-    align-items: stretch;
+    width: 25%;
   }
 
   section {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 100%;
   }
 
-
-  .about-class {
-    display: flex;
+  .column {
     flex-direction: column;
-    background-color: #00a699;
-    color: #fff;
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   /* -----Host----- */
   .host-class {
     flex-shrink: 4;
@@ -211,38 +171,18 @@ footer p {
   /* -----Ideas-----*/
 
   .half-page-pic {
-=======
-  .align-stuff {
-    display: flex;
->>>>>>> parent of 93d77b1 (finished layout)
-=======
-  .align-stuff {
-    display: flex;
->>>>>>> parent of 93d77b1 (finished layout)
     flex-direction: row;
-    align-items: stretch;
-    width:fit-content;
+    width: 100%;
   }
 
-  .item{
-    flex: 1;
-    margin: 10px;
+  .image-class {
+    flex-direction: column;
+    flex-basis: 50%
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 93d77b1 (finished layout)
+  
 
-  .item-double {
-    flex: 2;
-  }
-<<<<<<< HEAD
->>>>>>> parent of 93d77b1 (finished layout)
-=======
->>>>>>> parent of 93d77b1 (finished layout)
 
-  /* Header */
+  /* -----Header----- */
   header {
     display:flex;
     flex-direction: row;
@@ -254,28 +194,17 @@ footer p {
     font-size: 50px
   }
 
-  /* Stay section & form */
-  .stay-class{
-    display: flex;
-    flex-direction: column;
-  }
+  /* -----Stay section & form----- */
 
   .input {
-    display: flex;
     flex-direction: column;
   }
 
   .center-form {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-  }
-
-  /* .wrap {
+    align-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-
-  } */
+  }
 
 }
