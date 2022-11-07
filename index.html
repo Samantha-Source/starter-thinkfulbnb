@@ -32,30 +32,33 @@
 
     <main>
       <!-- Stay -->
-      <section id="stay" class="column">
+      <section id="stay" class="input">
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
-        <form class="center-form">
-          <div class="input">
-          <label class="align" for="location">Location</label>
+        <form class="center-form wrap">
+          <div class="input shrink">
+          <label  for="location">Location</label>
           <input
+            class="shrink"
             id="location"
             type="text"
             name="location"
             placeholder="Search destination"
             />
           </div>
-          <div class="input">
+          <div class="input shrink">
             <label for="arrive">Arrive</label>
             <input
+              class="shrink"
               id="arrive"
               type="date"
               name="arrive"
               />
           </div>
-          <div class="input">
+          <div class="input shrink">
             <label for="Depart">Depart</label>
             <input
+              class="shrink"
               id="depart"
               type="date"
               name="depart"
@@ -63,7 +66,7 @@
           </div>
           <div class="input">
             <label for="type">Type</label>
-            <select name="type" id="type" size="1">
+            <select name="type" id="type" size="1" class="shrink">
               <option value="apartment">Apartment</option>
               <option value="barn">Barn</option>
               <option value="castle">Castle</option>

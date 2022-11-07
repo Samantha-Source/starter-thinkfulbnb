@@ -40,13 +40,10 @@ main img {
 
 /* ---  Groups & Items --- */
 
-
-
 .item {
   flex: 1;
   margin: 10px;
 }
-
 
 /* -------  Navigation ------- */
 
@@ -107,6 +104,13 @@ form input {
   justify-content: space-between;
 }
 
+#stay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 form button {
   background-color: #ff385c;
   border: none;
@@ -115,7 +119,6 @@ form button {
   padding: 15px;
   width: 100%;
 }
-
 
 
 /* -------  Footer ------- */
@@ -156,7 +159,6 @@ footer p {
     flex-direction: column;
   }
 
-
   /* -----Host----- */
   .host-class {
     flex-shrink: 4;
@@ -179,8 +181,6 @@ footer p {
     flex-direction: column;
     flex-basis: 50%
   }
-  
-
 
   /* -----Header----- */
   header {
@@ -197,6 +197,7 @@ footer p {
   /* -----Stay section & form----- */
 
   .input {
+    display: flex;
     flex-direction: column;
   }
 
@@ -204,5 +205,13 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: flex-start;
   }
+
+  /* .wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  } */
+
 }
