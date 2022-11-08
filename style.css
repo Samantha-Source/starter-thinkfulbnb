@@ -136,7 +136,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 85%;
 }
 
 .input {
@@ -145,7 +145,7 @@ form input {
   justify-content: space-between;
 }
 #small-form{
-  max-width: 75%;
+  max-width: 70%;
 }
 
 form button {
@@ -292,8 +292,17 @@ footer p {
   }
 
 #small-form{
-  width: 75%
+  width: fit-content;
+  margin-top: 7px;
+
 }
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 
   #form {
     display: flex;
