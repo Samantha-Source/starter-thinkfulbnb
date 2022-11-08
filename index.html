@@ -20,7 +20,7 @@
   <body>
     <header>
       <div class="logo">Thinkfulbnb</div>
-      <nav>
+      <nav class="item">
         <ul id="menu">
           <li><a href="#stay">Stay</a></li>
           <li><a href="#about">About</a></li>
@@ -35,11 +35,12 @@
       <section id="stay" class="column">
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
-        <form class="center-form">
+        <div id="form" class="form center-form" width="100%">
+        <form class="center-form form" id="form" width="100%">
           <div class="input">
           <label class="align" for="location">Location</label>
           <input
-            id="location"
+            id="small-form"
             type="text"
             name="location"
             placeholder="Search destination"
@@ -48,7 +49,7 @@
           <div class="input">
             <label for="arrive">Arrive</label>
             <input
-              id="arrive"
+              id="small-form"
               type="date"
               name="arrive"
               />
@@ -56,14 +57,14 @@
           <div class="input">
             <label for="Depart">Depart</label>
             <input
-              id="depart"
+              id="small-form"
               type="date"
               name="depart"
               />
           </div>
           <div class="input">
             <label for="type">Type</label>
-            <select name="type" id="type" size="1">
+            <select name="type" size="1" id="small-form">
               <option value="apartment">Apartment</option>
               <option value="barn">Barn</option>
               <option value="castle">Castle</option>
@@ -77,6 +78,7 @@
             <button type="submit">Search</button>
           </div>
         </form>
+        </div>
       </section>
 
       <!-- About -->
@@ -84,18 +86,20 @@
         <h2>About</h2>
         <section>
         <img
+          id="about-img"
           class="item"
           src="images/vacation-rental-pool.png"
           alt="Thinkfulbnb - Vacation rental pool"
         />
 
         <img
+          id="about-img"
           class="item"
           src="images/vacation-rental-inside-stone.png"
           alt="Thinkfulbnb - Vacation rental inside stone"
         />
 
-        <p>
+        <p id="about-p">
           Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
           fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
           porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
