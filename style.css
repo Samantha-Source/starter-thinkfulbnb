@@ -179,6 +179,10 @@ footer p {
 
 @media all and (min-width:480px) {
 
+  main {
+    max-width: 100%;
+  }
+
   h2 {
     text-align: center;
     display: flex;
@@ -238,7 +242,9 @@ footer p {
     flex-direction: row;
     align-items: baseline;
     width: 100%;
-    padding: 15px 0px 15px 0px
+    padding: 15px 0px 15px 0px;
+    max-width: 100%;
+    margin-right:10px
   }
 
   .logo {
@@ -262,6 +268,12 @@ footer p {
     width: fit-content;
     padding: 0;
     justify-content: flex-end;
+    padding-right: 35px;
+  }
+
+  #button {
+    justify-content: center;
+    align-items: center;
   }
 
   /* -----Stay section & form----- */
